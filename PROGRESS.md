@@ -2,10 +2,11 @@
 
 ## Current milestone
 1 · Foundations — done when: the API serves calendars from the database.
+It starts with the January SQL foundation block (2 weeks, mostly theory). See "Theory and exercises" in the plan doc.
 
 ## Next step
-Session 1: decide the ORM (Prisma vs Drizzle) and sketch the schema for users, calendars,
-calendar_days and assignments on paper before generating anything.
+SQL block, week 1 (querying): pgexercises.com from "Basic" onwards, plus theory evenings in the Claude Project on joins, aggregates, CTEs and window functions.
+No project code until the SQL theory gate is passed. The ORM decision and schema sketch come after that.
 
 ## Open decisions
 - [ ] Accounts: magic email link, Google sign-in, or both?
